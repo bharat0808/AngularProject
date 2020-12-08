@@ -5,7 +5,8 @@ export class Product{
 
     constructor(pid:number,pname:string,price:number)
     {
-        this.pid=pid;
+       
+	 this.pid=pid;
         this.pname=pname;
         this.price=price;
     }
